@@ -1,0 +1,2350 @@
+{
+  "version": "1.2.1",
+  "sections": [
+    {
+      "id": "planning",
+      "title": "Planning Step",
+      "description": "Do the first that applies"
+    },
+    {
+      "id": "action",
+      "title": "Action Step",
+      "description": "Do all that apply"
+    },
+    {
+      "id": "encounter",
+      "title": "Encounter Step",
+      "description": "Do the first that applies"
+    },
+    {
+      "id": "special",
+      "title": "Special",
+      "description": ""
+    }
+  ],
+  "automa": [
+    {
+      "name": "Standard",
+      "notes": [
+        "Must be a character that starts with databank card #91 or #92.",
+        "Starting ship is G9 Rigger",
+        "Does not use abilities"
+      ],
+      "deck": [
+        {
+          "card": 1,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all CARGO slots full, buy JOB. Otherwise buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/this planet's faction (if any)."
+          ],
+          "ship special": [],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 2,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all JOB slots full, buy CARGO. Otherwise buy JOB. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 3,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 4,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 5,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 3 damage.",
+            "Buy JOB. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "Spend 8k to gain 1 fame.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 6,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 7,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, lose 1 reputation w/planet's faction (if any).",
+            "If all CARGO slots full, buy TECH. Otherwise buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 8,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "If @ CARGO destination, deliver it.",
+            "Buy TECH.",
+            "Reveal the facedown contact token of the lowest class on this planet."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/the nearest patrol's faction."
+          ],
+          "ship special": [],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 9,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": ["If @ CARGO destination, deliver it.", "Buy a SHIP"],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 10,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [],
+          "special": [
+            "Discard the top card of the BOUNTY and LUXURY market decks. Then shuffle this AI card back into the AI deck."
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "name": "Boba Fett",
+      "notes": [
+        "Boba Fett starting ship is G-1A Starfighter.",
+        "Use Boba Fett starting card.",
+        "Place starting contact token face up on first location found in market decks that matches contact color. This will determine location of first BOUNTY encounter. Place this before all other contacts of same color.",
+        "When BOUNTY location is not revealed, Boba Fett heads towards next closest goal location. If no goal available, he heads to closest planet with matching BOUNTY contact color. ",
+        "Boba Fett reveals all contacts that match the color of BOUNTY on each planet he ends movement on until BOUNTY location is found.",
+        "Boba Fett must roll a success to capture a BOUNTY from a BOUNTY encounter. If initial capture fails, he will continue to attempt capture on following turns till successful.",
+        "Boba Fett always eliminates the BOUNTY if the fame is the same as a capture."
+      ],
+      "deck": [
+        {
+          "card": 1,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all CARGO slots full, buy JOB. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 2,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all JOB slots full, buy CARGO. Otherwise buy JOB. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": ["If a crew slot is empty take a BOUNTY from the market"],
+          "shuffle": false
+        },
+        {
+          "card": 3,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": ["If a crew slot is empty take a BOUNTY from the market"],
+          "shuffle": false
+        },
+        {
+          "card": 4,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Eliminate the highest class contact on this planet and gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 5,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 3 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "Spend 8k to gain 1 fame.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": ["If a crew slot is empty take a BOUNTY from the market"],
+          "shuffle": false
+        },
+        {
+          "card": 6,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 7,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, lose 1 reputation w/planet's faction (if any).",
+            "If all CARGO slots full, buy TECH. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": ["If a crew slot is empty take a bounty from the market"],
+          "shuffle": false
+        },
+        {
+          "card": 8,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy TECH.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Eliminate the highest class contact on this planet and gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 9,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy a SHIP",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": ["If ship is Slave 1, gain 1 fame."],
+          "shuffle": false
+        },
+        {
+          "card": 10,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Elimination bonus becomes active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Eliminate the highest class contact on this planet and gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [
+            "Discard the top card of the SHIP and LUXURY market decks. Then shuffle this AI card back into the AI deck."
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "name": "Bossk",
+      "notes": [
+        "Bossk starting ship is G-1A Starfighter.",
+        "Use Bossk starting card.",
+        "Place starting contact token face up on first location found in market decks that matches contact color. This will determine location of first bounty encounter. Place this before all other contacts of same color.",
+        "When BOUNTY location is not revealed, Bossk heads towards next closest goal location. If no goal available, he heads to closest planet with matching BOUNTY contact color.",
+        "Bossk reveals a contact that matches color of BOUNTY on each planet he ends movement on until BOUNTY location is found.",
+        "Bossk must roll a success to capture a BOUNTY from a BOUNTY encounter. If initial capture fails, he will continue to attempt capture on following turns till successful.",
+        "Bossk always eliminates the BOUNTY if the fame is the same as a capture."
+      ],
+      "deck": [
+        {
+          "card": 1,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all CARGO slots full, buy JOB. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 2,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all JOB slots full, buy CARGO. Otherwise buy JOB. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": ["If a crew slot is empty take a BOUNTY from the market"],
+          "shuffle": false
+        },
+        {
+          "card": 3,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy TECH",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 4,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (= or -) reputation matching a patrol within 3 spaces to Bossk, encounter that patrol. If Bossk succeeds gain additional 4k",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 5,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 3 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "Spend 8k to gain 1 fame.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": ["If a crew slot is empty take a BOUNTY from the market"],
+          "shuffle": false
+        },
+        {
+          "card": 6,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "Eliminate the lowest class contact on this planet and gain 2k."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 7,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, lose 1 reputation w/planet's faction (if any).",
+            "If all CARGO slots full, buy TECH. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": ["If a crew slot is empty take a BOUNTY from the market"],
+          "shuffle": false
+        },
+        {
+          "card": 8,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it.",
+            "Buy TECH.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (= or -) reputation matching a patrol within 4 spaces to Bossk, encounter that patrol. If Bossk succeeds gain additional 1 fame.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 9,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it.",
+            "Buy a SHIP",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": ["If ship is Hounds Tooth, gain 1 fame."],
+          "shuffle": false
+        },
+        {
+          "card": 10,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Encounter text becomes active. Encounter text will become the first encounter option to accept if applicable.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (= or -) reputation matching a patrol within 3 spaces to Bossk, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card"
+          ],
+          "special": [
+            "Discard the top card of the BOUNTU and TECH market decks. Then shuffle this AI card back into the AI deck."
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "name": "Doctor Aphra",
+      "notes": [
+        "Doctor Aphra starting ship is G9 Rigger.",
+        "Use Doctor Aphra starting card.",
+        "Doctor Aphra does not purchase bounties."
+      ],
+      "deck": [
+        {
+          "card": 1,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all CARGO slots full, buy JOB. Otherwise buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/this planet's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal a facedown white contact token on this planet and gain the crew on it's card if it is a droid"
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 2,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal. If patrol in path is empire, ignore reputation and pass through the patrol.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all JOB slots full, buy CARGO. Otherwise buy JOB. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a CARGO if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 3,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal. If patrol in path is empire, ignore reputation and pass through the patrol.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal a facedown green contact token  on this planet and gain the crew on its card if it is a droid"
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 4,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a JOB if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 5,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 3 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a CARGO if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "Spend 8k to gain 1 fame.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 6,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal. If patrol in path is empire, ignore reputation and pass through the patrol.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a CARGO if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 7,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, lose 1 reputation w/planet's faction (if any).",
+            "If all CARGO slots full, buy TECH. Otherwise buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal a facedown yellow contact token  on this planet and gain the crew on its card if it is a droid."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 8,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it.",
+            "Buy TECH.",
+            "Reveal the facedown contact token of the lowest class on this planet."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/the nearest patrol's faction."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": ["Discard all non-droid crew members and gain 1 fame."],
+          "shuffle": false
+        },
+        {
+          "card": 9,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal. If patrol in path is empire, ignore reputation and pass through the patrol.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it",
+            "Buy a SHIP."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal a facedown  contact token  on this planet and gain the crew on its card if it is a droid."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 10,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Planning text becomes active as follows: Market action can be taken when movement ends on a navpoint.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a JOB if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Discard the top card of the BOUNTY and LUXURY market decks. Then shuffle this AI card back into the AI deck."
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "name": "Han Solo",
+      "notes": [
+        "Han Solo starting ship is G9 Rigger.",
+        "Use Han Solo starting card.",
+        "Han Solo does not take bounties."
+      ],
+      "deck": [
+        {
+          "card": 1,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal. If any patrol in path, ignore reputation and pass through the patrol(s).",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all CARGO slots full, buy JOB. Otherwise buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/this planet's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 2,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all JOB slots full, buy CARGO. Otherwise buy JOB. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a CARGO if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal facedown contact token of the lowest class on this planet and gain the crew on its card. Only replace existing crew if revealed contact is Chewbacca."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 3,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal all green contacts on this planet. If Greedo, eliminate and gain 1 fame."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 4,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal. If any patrol in path, ignore reputation and pass through the patrol(s).",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal facedown contact token of the lowest class on this planet and gain the crew on its card. Only replace existing crew if revealed contact is Chewbacca.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal all yellow contacts on this planet. If Kaz, gain crew for free. If Chewbacca, gain crew for free and gain 1 fame."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 5,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 3 damage.",
+            "Buy JOB. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, discard all CARGO and gain 1 fame.",
+            "Spend 8k to gain 1 fame.",
+            "Reveal facedown contact token of the lowest class on this planet and gain the crew on its card. Only replace existing crew if revealed contact is Chewbacca."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 6,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a JOB if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal all green contacts on this planet. If Greedo, eliminate and gain 1 fame."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 7,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal. If any patrol in path, ignore reputation and pass through the patrol(s).",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, lose 1 reputation w/planet's faction (if any).",
+            "If all CARGO slots full, buy TECH. Otherwise buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 8,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy TECH.",
+            "Reveal the facedown contact token of the lowest class on this planet."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/the nearest patrol's faction."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal all yellow contacts on this planet. If Kaz, gain crew for free. If Chewbacca, gain crew for free and gain 1 fame"
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 9,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy a SHIP"
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": ["If ship is Millennium Falcon, gain 1 fame."],
+          "shuffle": false
+        },
+        {
+          "card": 10,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal. If any patrol in path, ignore reputation and pass through the patrol(s).",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. If completed, gain reward and flip character card. Only movement bonus is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Discard the top card of the BOUNTY and LUXURY market decks. Then shuffle this AI card back into the AI deck."
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "name": "IG-88",
+      "notes": [
+        "IG-88 starting ship is G-1A Starfighter.",
+        "Use IG-88 starting card.",
+        "Place starting contact token face up on first location found in market decks that matches contact color. This will determine location of first BOUNTY encounter. Place this before all other contacts of same color.",
+        "When BOUNTY location is not revealed, IG-88 heads towards next closest goal location. If no goal available, he heads to closest planet with matching BOUNTY contact color.",
+        "IG-88 reveals a contact that matches color of bounty on each planet he ends movement on until bounty location is found.",
+        "IG-88 must roll a success to capture a bounty from a bounty encounter. If initial capture fails, he will continue to attempt capture on following turns till successful.",
+        "IG-88 always eliminates the bounty if the fame is the same as a capture."
+      ],
+      "deck": [
+        {
+          "card": 1,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all CARGO slots full, buy JOB. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal the facedown white contact token  on this planet and gain the crew on its card if it is a droid."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 2,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all JOB slots full, buy CARGO. Otherwise buy JOB. Then place a goal token on card's destination.",
+            "If 1 crew is a droid, gain 2k."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 3,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy BOUNTY. Then place a goal token on card's bounty destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal the facedown green contact token  on this planet and gain the crew on its card  if it is a droid."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 4,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy BOUNTY. Then place a goal token on card's bounty destination.",
+            "If 1 crew is a droid, gain 2k."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 5,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 3 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If 2 crew are droids, gain 5k."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "Spend 8k to gain 1 fame.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 6,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Discard all non-droid crew members. Gain 5k for each discarded crew member."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 7,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, lose 1 reputation w/planet's faction (if any).",
+            "If all CARGO slots full, buy TECH. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal the facedown yellow contact token  on this planet and gain the crew on its card if it is a droid."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 8,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy TECH.",
+            "Reveal the facedown contact token of the lowest class on this planet."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal the facedown green contact token  on this planet and gain the crew on its card if it is a droid."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 9,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy a SHIP",
+            "Take a 2nd market action. Buy a JOB if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": ["If ship is IG-2000, gain 1 fame."],
+          "shuffle": false
+        },
+        {
+          "card": 10,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Until completed, IG-88 will take a droid crew from any player in his space. If completed, gain reward and flip character card. Only combat dice reroll text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy BOUNTY. Then place a goal token on card's bounty destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Discard the top card of the BOUNTY and TECH market decks. Then shuffle this AI card back into the AI deck."
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "name": "Jyn Erso",
+      "notes": [
+        "Jyn Erso starting ship is G9 Rigger.",
+        "Use Jyn Erso starting card.",
+        "Jyn Erso does not take bounties."
+      ],
+      "deck": [
+        {
+          "card": 1,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all CARGO slots full, buy JOB. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If on an imperial planet, place 1 damage token."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/this planet's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 2,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all JOB slots full, buy CARGO. Otherwise buy JOB. Then place a goal token on card's destination.",
+            "If on an imperial planet, place 1 damage token."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal all yellow contacts on this planet. If K-2S0, gain crew and gain 1 fame."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 3,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal. If patrol in path is rebel, ignore reputation and pass through the patrol.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If on an imperial planet, place 1 damage token."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal the facedown yellow contact token  on this planet and gain the crew on its card for free if it is a droid."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 4,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "If on an imperial planet, place 1 damage token."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 5,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal. If patrol in path is rebel, ignore reputation and pass through the patrol.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 3 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If on an imperial planet, place 1 damage token."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "Spend 8k to gain 1 fame.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 6,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If on an imperial planet, place 1 damage token."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "If damage tokens are on 2 imperial planets, gain 1 fame."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 7,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, lose 1 reputation w/planet's faction (if any).",
+            "If all CARGO slots full, buy TECH. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If on an imperial planet, place 1 damage token."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, move that patrol 3 spaces towards your ship.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 8,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy TECH.",
+            "Reveal the facedown contact token of the lowest class on this planet."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/the nearest patrol's faction."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal all yellow contacts on this planet. If K-2S0, gain crew and gain 1 fame."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 9,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal. If patrol in path is rebel, ignore reputation and pass through the patrol.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy a SHIP",
+            "If on an imperial planet, place 1 damage token."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, move that patrol 3 spaces towards your ship.",
+            "If @ JOB destination, complete it.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 10,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Action text inactive. Combat text active. If completed, gain reward and flip character card. Only combat text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "If on an imperial planet, place 1 damage token."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Discard the top card of the SHIP and LUXURY market decks. Then shuffle this AI card back into the AI deck."
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "name": "Ketsu Onyo",
+      "notes": [
+        "Ketsu Onyo starting ship is G-1A Starfighter.",
+        "Use Ketsu Onyo starting card.",
+        "Place starting contact token face up on first location found in market decks that matches contact color. This will determine location of first BOUNTY encounter. Place this before all other contacts of same color.",
+        "When BOUNTY location is not revealed, Ketsu Onyo heads towards next closest goal location. If no goal available, he heads to closest planet with matching BOUNTY contact color. ",
+        "Ketsu Onyo reveals a contact that matches color of BOUNTY on each planet he ends movement on until BOUNTY location is found.",
+        "Ketsu Onyo must roll a success to capture a BOUNTY from a BOUNTY encounter. If initial capture fails, he will continue to attempt capture on following turns till successful.",
+        "Ketsu Onyo always eliminates the BOUNTY if the fame is the same as a capture."
+      ],
+      "deck": [
+        {
+          "card": 1,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all CARGO slots full, buy JOB. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "Encounter a patrol within 3 spaces of Ketsu",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 2,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all JOB slots full, buy CARGO. Otherwise buy JOB. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "Encounter a patrol within 3 spaces of Ketsu",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 3,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy BOUNTY. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "Encounter a patrol within 3 spaces of Ketsu",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal the facedown white contact token  on this planet and gain the crew on its card for free if it is syndicate or no affiliation."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 4,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal the facedown white contact token  on this planet and gain the crew on its card for free if it is syndicate or no affiliation."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 5,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 3 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a TECH if slot is available."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "Spend 8k to gain 1 fame.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 6,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "Encounter a patrol within 3 spaces of Ketsu. If combat is won, take no credits and gain additional 1 fame",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 7,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, lose 1 reputation w/planet's faction (if any).",
+            "If all CARGO slots full, buy TECH. Otherwise buy CARGO. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "Encounter a patrol within 3 spaces of Ketsu",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal the facedown green contact token  on this planet and gain the crew on its card for free if it is syndicate or no affiliation."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 8,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy TECH.",
+            "Reveal the facedown contact token of the lowest class on this planet."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 9,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy a SHIP",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal the facedown yellow contact token  on this planet and gain the crew on its card for free if it is syndicate or no affiliation."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 10,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Encounter text inactive. If completed, gain reward and flip character card. Only combat credit text is active.",
+            "If @ CARGO destination, deliver it.",
+            "Buy BOUNTY. Then place a goal token on card's destination.",
+            "If @ BOUNTY destination, deliver it."
+          ],
+          "encounter": [
+            "Encounter a patrol within 3 spaces of Ketsu",
+            "If @ BOUNTY location, encounter BOUNTY.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Discard the top card of the BOUNTY and LUXURY market decks. Then shuffle this AI card back into the AI deck."
+          ],
+          "shuffle": true
+        }
+      ]
+    },
+    {
+      "name": "Lando Calrissian",
+      "notes": [
+        "Lando Calrissian starting ship is G9 Rigger.",
+        "Use Lando Calrissian starting card.",
+        "Lando Calrissian always moves towards closest goal that allows him to land on a planet.",
+        "Lando Calrissian does not take bounties."
+      ],
+      "deck": [
+        {
+          "card": 1,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage. Receive no credits for delivery. Instead gain additional 1 fame.",
+            "If all CARGO slots full, buy JOB. Otherwise buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/this planet's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 2,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "If all JOB slots full, buy CARGO. Otherwise buy JOB. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Reveal all green and yellow contacts on this planet.  If Chewbacca or a droid, gain as crew."
+          ],
+          "shuffle": false
+        },
+        {
+          "card": 3,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy JOB. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a CARGO if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 4,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination.",
+            "Take a 2nd market action. Buy a JOB if slot is available. Then place a goal on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 5,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 3 damage.",
+            "Sabacc Skills! Receive LUXURY item for free"
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "Spend 8k to gain 1 fame.",
+            "Reveal the facedown contact token of the lowest class on this planet and gain the crew on its card for free."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 6,
+          "planning": [
+            "Recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, ship suffers 2 damage.",
+            "Buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 7,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it. If CARGO is ILLEGAL, lose 1 reputation w/planet's faction (if any).",
+            "If all CARGO slots full, buy TECH. Otherwise buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 8,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it. Receive no credits for delivery. Instead gain additional 1 fame.",
+            "Buy TECH.",
+            "Reveal the facedown contact token of the lowest class on this planet."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame.",
+            "Gain 1 reputation w/the nearest patrol's faction."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [],
+          "shuffle": false
+        },
+        {
+          "card": 9,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it.",
+            "Buy a SHIP"
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Gain 4k. Then lose 1 reputaion w/the nearest patrol's faction (if any)."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": ["If ship is Millennium Falcon, gain 5k."],
+          "shuffle": false
+        },
+        {
+          "card": 10,
+          "planning": [
+            "If Defeated, recover all damage.",
+            "Move toward closest goal.",
+            "Gain 2k."
+          ],
+          "action": [
+            "Check Personal Goal. Dice reroll text active as follows - Reroll any 1 blank die. If completed, gain reward and flip character card. All text is active as follows - Reroll any 1 blank die; Pay 1k to gain 1 reputation with planet faction.",
+            "If @ CARGO destination, deliver it.",
+            "Buy CARGO. Then place a goal token on card's destination."
+          ],
+          "encounter": [
+            "If (-) reputation matching a patrol in this space, encounter that patrol.",
+            "If @ JOB destination, complete it.",
+            "Spend 8k to gain 1 fame."
+          ],
+          "ship special": [
+            "Check Ship Goal. If applicable, complete it and gain reward. Then flip ship card."
+          ],
+          "special": [
+            "Discard the top card of the BOUNTY and LUXURY market decks. Then shuffle this AI card back into the AI deck."
+          ],
+          "shuffle": true
+        }
+      ]
+    }
+  ]
+}
