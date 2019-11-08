@@ -54,9 +54,10 @@ function loadDeck(id, { sections, automa }) {
     .map(n => `<li>${n}</li>`)
     .join(
       ''
-    )}</ul></div><div class="controls"><div class="draw">Draw Card</div><div class="back">Back to Main</div></div><article id="card"></article></section>`
+    )}</ul></div><div class="controls"><div class="draw">Draw Card</div><div class="back">Back to Main</div></div><article id="card" title="Click to draw new card"></article></section>`
   const drawButton = document.getElementsByClassName('draw')[0]
   const backButton = document.getElementsByClassName('back')[0]
+  const card = document.getElementById('card')
   const backHandle = function(event) {
     event.preventDefault()
     if (window.confirm('Do you really want to go back to the ai selction?')) {
@@ -68,6 +69,7 @@ function loadDeck(id, { sections, automa }) {
     drawCard()
   }
   drawButton.addEventListener('click', drawHandle)
+  card.addEventListener('click', drawHandle)
   backButton.addEventListener('click', backHandle)
 }
 function loadChooseAutoma(data) {
