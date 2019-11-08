@@ -4,22 +4,32 @@
     {
       "id": "planning",
       "title": "Planning Step",
-      "description": "Do the first that applies"
+      "description": "Do the first that applies",
+      "ordered": true
     },
     {
       "id": "action",
       "title": "Action Step",
-      "description": "Do all that apply"
+      "description": "Do all that apply",
+      "ordered": false
     },
     {
       "id": "encounter",
       "title": "Encounter Step",
-      "description": "Do the first that applies"
+      "description": "Do the first that applies",
+      "ordered": true
+    },
+    {
+      "id": "ship special",
+      "title": "Ship Special",
+      "description": "",
+      "ordered": false
     },
     {
       "id": "special",
       "title": "Special",
-      "description": ""
+      "description": "",
+      "ordered": false
     }
   ],
   "automa": [
