@@ -61,7 +61,7 @@ function loadDeck(id, { sections, automa }) {
   const backHandle = function(event) {
     event.preventDefault()
     if (window.confirm('Do you really want to go back to the ai selction?')) {
-      document.location.href = '/'
+      document.location.reload()
     }
   }
   const drawHandle = function(event) {
