@@ -1,0 +1,8 @@
+.deck,
+#draw {
+  cursor: pointer;
+}
+.deck:hover,
+#draw:hover {
+  text-decoration: underline;
+}
